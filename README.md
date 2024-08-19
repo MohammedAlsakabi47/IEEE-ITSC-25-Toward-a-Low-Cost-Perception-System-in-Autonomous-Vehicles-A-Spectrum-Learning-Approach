@@ -19,7 +19,7 @@ This repository contains the code, documentation, and examples corresponding to 
 
 `Example Frames/`: the 10 random example frames including camera images, radar point clouds, lidar point clouds, radar spectrum, lidar spectrum, camera spectrum, and camera semantic segmentations
 
-`Algorithm1.m`: Algorithm 1, labeled in the paper as Pixel Encoding and Spectrum Estimation, in MATLAB
+`Algorithm1.m`: Algorithm 1, labeled in the paper as Pixel Encoding and Spectrum Estimation, and correlation calculation for the provided example frames in MATLAB
 
 `ResNet_Training.py`: code for training ResNet101
 
