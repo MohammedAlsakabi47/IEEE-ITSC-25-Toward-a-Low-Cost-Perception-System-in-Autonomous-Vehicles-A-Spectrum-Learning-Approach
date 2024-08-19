@@ -5,7 +5,7 @@
 # AAAI-25
 #### Mohammed Alsakabi, Aidan Erickson, John M. Dolan, Ozan K. Tonguz
 
-This repository contains the code, documentation, and examples corresponding to the paper *A Camera-Assisted Radar 3D Scene Generation via Spectrum Learning** by Alsakabi et. al, submitted to AAAI-25.
+This repository contains the code, documentation, and examples corresponding to the paper *A Camera-Assisted Radar 3D Scene Generation via Spectrum Learning* by Alsakabi et. al, submitted to AAAI-25.
 
 <div align="center">
 <p float="center">
