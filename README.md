@@ -27,8 +27,8 @@ This repository contains the code, documentation, and examples corresponding to 
 
 `unidirectional_chamfer_distance.py`: function of unidirectional chamfer distance
 
-`visualization_examples.ipynb`: example visualization and calculation of UCD
+`visualization_and_UCD.ipynb`: example visualization and calculation of UCD
 
 ### How to run
 
-To obtain a visualization of our method, simply run `visualization_examples.ipynb` with the default settings. This will render a Unidirectional Chamfer Distance measure as well as the visualizations.
+To obtain a visualization of our method, simply run `visualization_and_UCD.ipynb` with the default settings. This will render a Unidirectional Chamfer Distance measure as well as the visualizations.
