@@ -46,6 +46,12 @@ end
 
 %% Example Output
 figure
+imagesc(Semantic_Segmentations) % to remove log effect
+title('Camera Image Semantic Segmentations')
+figure
+imagesc(depth_map) % to remove log effect
+title('Radar Depth Map')
+figure
 imagesc(100000.^P_radar) % to remove log effect
 title('Spectrum of Radar Depth Map')
 figure
