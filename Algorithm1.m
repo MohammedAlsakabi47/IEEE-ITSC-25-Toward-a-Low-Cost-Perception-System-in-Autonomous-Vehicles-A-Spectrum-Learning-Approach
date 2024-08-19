@@ -12,6 +12,8 @@ phi = -70:1:70;
 
 %% Algorithm
 nFiles = 10; % number of files
+correlation_spectrum = []; % initialize spectrum correlation vector
+correlation_original = []; % initialize correlation vector for original forms
 for n = 1:nFiles
     load(strcat(FolderPath_radar, num2str(n), '.mat')) % load radar depth map
     load(strcat(FolderPath_camera, num2str(n), '.mat')) % load camera image
@@ -37,13 +39,23 @@ for n = 1:nFiles
     imwrite(P_camera.*P_radar, strcat('Example Frames/camera spetrum/',num2str(n),'.jpg'));
     imwrite(P_radar, strcat('Example Frames/radar depth map spectrum/',num2str(n),'.jpg'));
 
+    % Calculate Correlation
+    correlation_spectrum = [correlation_spectrum corr2(P_camera,P_radar)];
+    correlation_original = [correlation_original corr2(depth_map,Semantic_Segmentations)];
 end
 
 %% Example Output
 figure
-imagesc(P_radar)
+imagesc(100000.^P_radar) % to remove log effect
+title('Spectrum of Radar Depth Map')
 figure
-imagesc(P_camera)
+imagesc(100000.^P_camera) % to remove log effect
+title('Spectrum of Camera Image')
+colorbar
+
+%% Calculate Mean Correlation
+disp(strcat('Correlation between original depth map and semantic segmentations: ' ,num2str(mean(correlation_original))))
+disp(strcat('Correlation between spectrums of radar and camera: ', num2str(mean(correlation_spectrum))))
 
 %% Supporting Functions
 function P = estimate(image, M, theta, phi)
@@ -69,5 +81,3 @@ function P = estimate(image, M, theta, phi)
         end
     end
 end
-
-
