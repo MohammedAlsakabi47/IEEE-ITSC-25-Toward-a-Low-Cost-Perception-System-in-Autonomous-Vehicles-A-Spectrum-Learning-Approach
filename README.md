@@ -32,3 +32,5 @@ This repository contains the code, documentation, and examples corresponding to 
 ### How to run
 
 To obtain a visualization of our method, simply run `visualization_and_UCD.ipynb` with the default settings. This will render a Unidirectional Chamfer Distance measure as well as the visualizations.
+
+To access the complete RaDelft dataset, refer to [RaDelft Dataset](https://data.4tu.nl/datasets/4e277430-e562-4a7a-adfe-30b58d9a5f0a) and this [repository](https://github.com/RaDelft/RaDelft-Dataset)
