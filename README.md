@@ -9,7 +9,7 @@ This repository contains the code, documentation, and examples corresponding to 
 
 <div align="center">
 <p float="center">
-<img src="Figures/SoTA_vs_Proposed.gif" alt="Proposed method" width="600"/>
+<img src="Figures/scene2.gif" alt="Proposed method" width="600"/>
 <br />
 <b>Example scene of our method compared to the current state-of-the-art (SOTA).</b>
 </p>
