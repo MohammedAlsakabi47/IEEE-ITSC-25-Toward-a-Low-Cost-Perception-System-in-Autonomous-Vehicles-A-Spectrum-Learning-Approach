@@ -5,7 +5,7 @@
 # IEEE ITSC-25: Toward a Low-Cost Perception System in Autonomous Vehicles: A Spectrum Learning Approach
 #### Mohammed Alsakabi, Aidan Erickson, John M. Dolan, Ozan K. Tonguz
 
-This repository contains the code, documentation, and examples corresponding to the paper *Toward a Low-Cost Perception System in Autonomous Vehicles: A Spectrum Learning Approach* by Alsakabi et. al, submitted to IEEE IV-25.
+This repository contains the code, documentation, and examples corresponding to the paper *Toward a Low-Cost Perception System in Autonomous Vehicles: A Spectrum Learning Approach* by Alsakabi et. al, submitted to IEEE ITSC-25.
 
 <div align="center">
 <p float="center">
